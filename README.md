@@ -2,11 +2,18 @@
 This project demonstrates a 2-node replicated storage cluster using GlusterFS and Apache2. It ensures that web content is mirrored in real-time and remains accessible even if one server fails.
 
 ## 📺 Project Demonstration
-Watch the full process of the GlusterFS configuration, replication test, and failover here:
+Watch the full process of the GlusterFS and RAID 1 configuration, replication test, and failover here:
 
+### GlusterFS Web Cluster Demo
 [**GlusterFS Web Cluster Demo**](https://drive.google.com/file/d/1kXJeRON5wywVMumdk-8UR6JP-rviVDX6/view?usp=sharing)
 
-[![Demo Video](https://img.shields.io/badge/Demo-Video-red?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1kXJeRON5wywVMumdk-8UR6JP-rviVDX6/view?usp=sharing)
+[![GlusterFS Demo](https://img.shields.io/badge/GlusterFS-Demo-8A2BE2?style=for-the-badge&logo=icloud&logoColor=white)](https://drive.google.com/file/d/1kXJeRON5wywVMumdk-8UR6JP-rviVDX6/view?usp=sharing)
+
+
+#### Credits: Nathaniel Victoria (RAID 1)
+[**Raid Demonstration**](https://drive.google.com/file/d/1rDcnvpCgui9_NKbqKj_mz5J98x1-IEVe/view?usp=sharing) 
+
+[![RAID Demo](https://img.shields.io/badge/Ubuntu-RAID_1_Demo-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://drive.google.com/file/d/1rDcnvpCgui9_NKbqKj_mz5J98x1-IEVe/view?usp=sharing)
 
 ## Pre-requisite
 **Network:** Ensure /etc/hosts contains the correct IPs for server1 and server2.
